@@ -32,15 +32,25 @@
 .section-middle {
     height: 60vh;
     background-color: blueviolet;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .container-middle-upper {
     height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .container-img {
     height: 100%;
     width: 30vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .container-text {
